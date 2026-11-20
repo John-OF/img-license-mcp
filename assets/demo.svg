@@ -1,0 +1,181 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 510" width="800" height="510" role="img" aria-labelledby="title desc">
+<title id="title">Img-License MCP demo</title>
+<desc id="desc">An agent calls search_images, prepare_image, build_attribution and upload_to_wordpress: it finds a CC BY-SA photo whose licence was read at the source, converts it to a 1600 px WebP 46.5 % lighter, builds the credit line and uploads it with its provenance.</desc>
+<style>
+svg{--bg:#f2efe6;--soft:#e6e9f0;--ink:#1d2733;--mut:#47545f;--line:rgba(29,39,51,.16);--accent:#6247aa;--ok:#2e9457}
+@media (prefers-color-scheme:dark){svg{--bg:#0a1c2e;--soft:#15304a;--ink:#d9e8f4;--mut:#a3c2d8;--line:rgba(169,212,234,.18);--accent:#a48ef0;--ok:#5cc98a}}
+text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+.t13{font-size:13px}.t11{font-size:11px}.t10{font-size:10px}.b{font-weight:700}
+.cap{font-size:10px;letter-spacing:1.5px}.link{text-decoration:underline}
+.ink{fill:var(--ink)}.mut{fill:var(--mut)}.accent{fill:var(--accent)}.ok{fill:var(--ok)}
+.frame{fill:var(--bg);stroke:var(--line)}.bgfill{fill:var(--bg)}
+.pill{fill:var(--bg);stroke:var(--ink);stroke-width:1.4}
+.card{fill:var(--soft);fill-opacity:.45;stroke:var(--line)}
+.rule{stroke:var(--line)}
+.accentfill{fill:var(--accent)}.mutfill{fill:var(--mut);fill-opacity:.55}
+.bar{transform-box:fill-box;transform-origin:left center}
+.tick{fill:none;stroke:var(--ok);stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:19}
+.spin{fill:none;stroke:var(--accent);stroke-width:1.6;stroke-dasharray:20 12;transform-box:fill-box;transform-origin:center;animation:spin .8s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes ka1{0.000%{transform:translateX(0)} 2.778%{transform:translateX(0);animation-timing-function:steps(68,end)} 15.556%{transform:translateX(530.4px)} 100.000%{transform:translateX(530.4px)}}
+.a1{transform:translateX(530.4px);animation:ka1 18.0s linear infinite}
+@keyframes ka2{0.000%{opacity:0} 1.111%{opacity:0} 1.667%{opacity:1} 18.889%{opacity:1} 19.444%{opacity:0} 100.000%{opacity:0}}
+.a2{opacity:0;animation:ka2 18.0s ease-out infinite}
+@keyframes ka3{0.000%{opacity:0;transform:translateX(-8px)} 17.222%{opacity:0;transform:translateX(-8px)} 19.167%{opacity:1;transform:translateX(0)} 100.000%{opacity:1;transform:translateX(0)}}
+.a3{opacity:1;transform:translateX(0);animation:ka3 18.0s ease-out infinite}
+@keyframes ka4{0.000%{opacity:0} 17.222%{opacity:0} 17.778%{opacity:1} 23.889%{opacity:1} 24.444%{opacity:0} 100.000%{opacity:0}}
+.a4{opacity:0;animation:ka4 18.0s ease-out infinite}
+@keyframes ka5{0.000%{stroke-dashoffset:19} 23.889%{stroke-dashoffset:19} 25.556%{stroke-dashoffset:0} 100.000%{stroke-dashoffset:0}}
+.a5{stroke-dashoffset:0;animation:ka5 18.0s ease-out infinite}
+@keyframes ka6{0.000%{opacity:0} 23.889%{opacity:0} 25.833%{opacity:1} 100.000%{opacity:1}}
+.a6{opacity:1;animation:ka6 18.0s ease-out infinite}
+@keyframes ka7{0.000%{opacity:0;transform:translateX(-8px)} 29.444%{opacity:0;transform:translateX(-8px)} 31.389%{opacity:1;transform:translateX(0)} 100.000%{opacity:1;transform:translateX(0)}}
+.a7{opacity:1;transform:translateX(0);animation:ka7 18.0s ease-out infinite}
+@keyframes ka8{0.000%{opacity:0} 29.444%{opacity:0} 30.000%{opacity:1} 38.333%{opacity:1} 38.889%{opacity:0} 100.000%{opacity:0}}
+.a8{opacity:0;animation:ka8 18.0s ease-out infinite}
+@keyframes ka9{0.000%{stroke-dashoffset:19} 38.333%{stroke-dashoffset:19} 40.000%{stroke-dashoffset:0} 100.000%{stroke-dashoffset:0}}
+.a9{stroke-dashoffset:0;animation:ka9 18.0s ease-out infinite}
+@keyframes ka10{0.000%{opacity:0} 38.333%{opacity:0} 40.278%{opacity:1} 100.000%{opacity:1}}
+.a10{opacity:1;animation:ka10 18.0s ease-out infinite}
+@keyframes ka11{0.000%{opacity:0;transform:translateX(-8px)} 42.778%{opacity:0;transform:translateX(-8px)} 44.722%{opacity:1;transform:translateX(0)} 100.000%{opacity:1;transform:translateX(0)}}
+.a11{opacity:1;transform:translateX(0);animation:ka11 18.0s ease-out infinite}
+@keyframes ka12{0.000%{opacity:0} 42.778%{opacity:0} 43.333%{opacity:1} 49.444%{opacity:1} 50.000%{opacity:0} 100.000%{opacity:0}}
+.a12{opacity:0;animation:ka12 18.0s ease-out infinite}
+@keyframes ka13{0.000%{stroke-dashoffset:19} 49.444%{stroke-dashoffset:19} 51.111%{stroke-dashoffset:0} 100.000%{stroke-dashoffset:0}}
+.a13{stroke-dashoffset:0;animation:ka13 18.0s ease-out infinite}
+@keyframes ka14{0.000%{opacity:0} 49.444%{opacity:0} 51.389%{opacity:1} 100.000%{opacity:1}}
+.a14{opacity:1;animation:ka14 18.0s ease-out infinite}
+@keyframes ka15{0.000%{opacity:0;transform:translateX(-8px)} 55.000%{opacity:0;transform:translateX(-8px)} 56.944%{opacity:1;transform:translateX(0)} 100.000%{opacity:1;transform:translateX(0)}}
+.a15{opacity:1;transform:translateX(0);animation:ka15 18.0s ease-out infinite}
+@keyframes ka16{0.000%{opacity:0} 55.000%{opacity:0} 55.556%{opacity:1} 62.778%{opacity:1} 63.333%{opacity:0} 100.000%{opacity:0}}
+.a16{opacity:0;animation:ka16 18.0s ease-out infinite}
+@keyframes ka17{0.000%{stroke-dashoffset:19} 62.778%{stroke-dashoffset:19} 64.444%{stroke-dashoffset:0} 100.000%{stroke-dashoffset:0}}
+.a17{stroke-dashoffset:0;animation:ka17 18.0s ease-out infinite}
+@keyframes ka18{0.000%{opacity:0} 62.778%{opacity:0} 64.722%{opacity:1} 100.000%{opacity:1}}
+.a18{opacity:1;animation:ka18 18.0s ease-out infinite}
+@keyframes ka19{0.000%{opacity:0;transform:translateX(-8px)} 70.000%{opacity:0;transform:translateX(-8px)} 71.944%{opacity:1;transform:translateX(0)} 100.000%{opacity:1;transform:translateX(0)}}
+.a19{opacity:1;transform:translateX(0);animation:ka19 18.0s ease-out infinite}
+@keyframes ka20{0.000%{opacity:0} 23.889%{opacity:0} 25.833%{opacity:1} 100.000%{opacity:1}}
+.a20{opacity:1;animation:ka20 18.0s ease-out infinite}
+@keyframes ka21{0.000%{opacity:0} 23.889%{opacity:0} 25.833%{opacity:1} 100.000%{opacity:1}}
+.a21{opacity:1;animation:ka21 18.0s ease-out infinite}
+@keyframes ka22{0.000%{opacity:0} 24.722%{opacity:0} 26.667%{opacity:1} 100.000%{opacity:1}}
+.a22{opacity:1;animation:ka22 18.0s ease-out infinite}
+@keyframes ka23{0.000%{opacity:0} 25.556%{opacity:0} 27.500%{opacity:1} 100.000%{opacity:1}}
+.a23{opacity:1;animation:ka23 18.0s ease-out infinite}
+@keyframes ka24{0.000%{opacity:0} 27.222%{opacity:0} 29.167%{opacity:1} 100.000%{opacity:1}}
+.a24{opacity:1;animation:ka24 18.0s ease-out infinite}
+@keyframes ka25{0.000%{opacity:0} 38.333%{opacity:0} 40.278%{opacity:1} 100.000%{opacity:1}}
+.a25{opacity:1;animation:ka25 18.0s ease-out infinite}
+@keyframes ka26{0.000%{opacity:0} 43.333%{opacity:0} 45.278%{opacity:1} 100.000%{opacity:1}}
+.a26{opacity:1;animation:ka26 18.0s ease-out infinite}
+@keyframes ka27{0.000%{opacity:0} 38.333%{opacity:0} 40.278%{opacity:1} 100.000%{opacity:1}}
+.a27{opacity:1;animation:ka27 18.0s ease-out infinite}
+@keyframes ka28{0.000%{transform:scaleX(0)} 38.889%{transform:scaleX(0)} 42.222%{transform:scaleX(1)} 100.000%{transform:scaleX(1)}}
+.a28{transform:scaleX(1);animation:ka28 18.0s ease-out infinite}
+@keyframes ka29{0.000%{opacity:0} 39.722%{opacity:0} 41.667%{opacity:1} 100.000%{opacity:1}}
+.a29{opacity:1;animation:ka29 18.0s ease-out infinite}
+@keyframes ka30{0.000%{transform:scaleX(0)} 40.278%{transform:scaleX(0)} 43.611%{transform:scaleX(1)} 100.000%{transform:scaleX(1)}}
+.a30{transform:scaleX(1);animation:ka30 18.0s ease-out infinite}
+@keyframes ka31{0.000%{opacity:0} 49.444%{opacity:0} 51.389%{opacity:1} 100.000%{opacity:1}}
+.a31{opacity:1;animation:ka31 18.0s ease-out infinite}
+@keyframes ka32{0.000%{opacity:0;transform:translateX(-6px)} 50.000%{opacity:0;transform:translateX(-6px)} 51.944%{opacity:1;transform:translateX(0)} 100.000%{opacity:1;transform:translateX(0)}}
+.a32{opacity:1;transform:translateX(0);animation:ka32 18.0s ease-out infinite}
+@keyframes ka33{0.000%{opacity:0} 62.778%{opacity:0} 64.722%{opacity:1} 100.000%{opacity:1}}
+.a33{opacity:1;animation:ka33 18.0s ease-out infinite}
+@keyframes ka34{0.000%{opacity:0;transform:translateX(-6px)} 62.778%{opacity:0;transform:translateX(-6px)} 64.722%{opacity:1;transform:translateX(0)} 100.000%{opacity:1;transform:translateX(0)}}
+.a34{opacity:1;transform:translateX(0);animation:ka34 18.0s ease-out infinite}
+@keyframes ka35{0.000%{opacity:0;transform:translateX(-6px)} 63.611%{opacity:0;transform:translateX(-6px)} 65.556%{opacity:1;transform:translateX(0)} 100.000%{opacity:1;transform:translateX(0)}}
+.a35{opacity:1;transform:translateX(0);animation:ka35 18.0s ease-out infinite}
+@keyframes ka36{0.000%{opacity:0;transform:translateX(-6px)} 64.444%{opacity:0;transform:translateX(-6px)} 66.389%{opacity:1;transform:translateX(0)} 100.000%{opacity:1;transform:translateX(0)}}
+.a36{opacity:1;transform:translateX(0);animation:ka36 18.0s ease-out infinite}
+@keyframes ka37{0.000%{opacity:0;transform:translateX(-6px)} 65.278%{opacity:0;transform:translateX(-6px)} 67.222%{opacity:1;transform:translateX(0)} 100.000%{opacity:1;transform:translateX(0)}}
+.a37{opacity:1;transform:translateX(0);animation:ka37 18.0s ease-out infinite}
+@keyframes ka38{0.000%{opacity:0} 1.667%{opacity:1} 95.556%{opacity:1} 98.333%{opacity:0} 100.000%{opacity:0}}
+.a38{opacity:1;animation:ka38 18.0s linear infinite}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}.spin{opacity:0}}
+</style>
+<g class="a38">
+<rect x="1" y="1" width="798" height="508" rx="10" class="frame"/>
+<rect x="24" y="20" width="752" height="34" rx="17" class="pill"/>
+<text x="44" y="42" class="accent b">›</text>
+<text x="58" y="42" class="ink t13">Find a photo for my Kyoto post that I can legally use, and upload it</text>
+<g class="a1"><rect x="58" y="27" width="534" height="21" class="bgfill"/><rect x="58" y="29" width="7" height="16" class="accentfill a2"/></g>
+<g class="a3">
+<g class="a4"><circle cx="36" cy="92" r="5" class="spin"/></g>
+<path d="M30 92 l4 5 l8 -9" class="tick a5"/>
+<text x="52" y="96" class="accent b t13">search_images</text>
+<text x="52" y="115" class="mut t11">query=&quot;Arashiyama bamboo forest&quot;</text>
+</g>
+<text x="52" y="136" class="ink t11 a6">→ 5 candidates · licence read at the source</text>
+<g class="a7">
+<g class="a8"><circle cx="36" cy="180" r="5" class="spin"/></g>
+<path d="M30 180 l4 5 l8 -9" class="tick a9"/>
+<text x="52" y="184" class="accent b t13">prepare_image</text>
+<text x="52" y="203" class="mut t11">max_width=1600, format=&quot;webp&quot;</text>
+</g>
+<text x="52" y="224" class="ink t11 a10">→ 1920 px JPEG → 1600 px WebP · −46.5 %</text>
+<g class="a11">
+<g class="a12"><circle cx="36" cy="268" r="5" class="spin"/></g>
+<path d="M30 268 l4 5 l8 -9" class="tick a13"/>
+<text x="52" y="272" class="accent b t13">build_attribution</text>
+<text x="52" y="291" class="mut t11">author=&quot;Basile Morin&quot;, &quot;CC BY-SA 4.0&quot;</text>
+</g>
+<text x="52" y="312" class="ink t11 a14">→ credit paragraph with 3 links</text>
+<g class="a15">
+<g class="a16"><circle cx="36" cy="356" r="5" class="spin"/></g>
+<path d="M30 356 l4 5 l8 -9" class="tick a17"/>
+<text x="52" y="360" class="accent b t13">upload_to_wordpress</text>
+<text x="52" y="379" class="mut t11">alt_text, caption, provenance</text>
+</g>
+<text x="52" y="400" class="ink t11 a18">→ media #608 · metadata written</text>
+<g class="a19">
+<text x="30" y="462" class="ok b t13">✓</text>
+<text x="52" y="462" class="ink b t13">Published with a verified licence</text>
+<text x="52" y="482" class="mut t11">no licence, author or alt text was guessed</text>
+</g>
+<rect x="410" y="76" width="366" height="414" rx="6" class="card"/>
+<text x="428" y="100" class="mut cap a20">CANDIDATES · LICENCE READ AT SOURCE</text>
+<g class="a21">
+<text x="428" y="124" class="accent b t11">Bamboo Forest, Arashiyama</text>
+<text x="626" y="124" class="mut t11">CC BY-SA 4.0</text>
+<text x="758" y="124" class="accent b t11" text-anchor="end">6558 px</text>
+</g>
+<g class="a22">
+<text x="428" y="145" class="ink t11">Bamboo Grove, Arashiyama</text>
+<text x="626" y="145" class="mut t11">CC BY-SA 4.0</text>
+<text x="758" y="145" class="mut t11" text-anchor="end">4051 px</text>
+</g>
+<g class="a23">
+<text x="428" y="166" class="ink t11">Sagano Bamboo forest</text>
+<text x="626" y="166" class="mut t11">CC BY-SA 4.0</text>
+<text x="758" y="166" class="mut t11" text-anchor="end">3837 px</text>
+</g>
+<text x="428" y="190" class="mut t10 a24">30 examined · 4 too small · 0 unreadable licence</text>
+<line x1="428" y1="204" x2="758" y2="204" class="rule"/>
+<text x="428" y="226" class="mut cap a25">WEBP · 1600 PX</text>
+<text x="758" y="226" class="ok b t11 a26" text-anchor="end">−46.5 %</text>
+<g class="a27">
+<text x="428" y="250" class="ink t11">JPEG 1920px</text>
+<text x="758" y="250" class="mut t11" text-anchor="end">1.01 MB</text>
+</g>
+<rect x="522" y="242" width="170.0" height="8" rx="1.5" class="mutfill bar a28"/>
+<g class="a29">
+<text x="428" y="272" class="ink t11">WebP 1600px</text>
+<text x="758" y="272" class="mut t11" text-anchor="end">541 KB</text>
+</g>
+<rect x="522" y="264" width="91.0" height="8" rx="1.5" class="accentfill bar a30"/>
+<line x1="428" y1="290" x2="758" y2="290" class="rule"/>
+<text x="428" y="312" class="mut cap a31">CREDIT</text>
+<g class="a32">
+<text x="428" y="336" class="ink t11">Photo: <tspan class="accent link">Basile Morin</tspan>, <tspan class="accent link">CC BY-SA 4.0</tspan>,</text>
+<text x="428" y="354" class="ink t11">via <tspan class="accent link">Wikimedia Commons</tspan></text>
+</g>
+<line x1="428" y1="370" x2="758" y2="370" class="rule"/>
+<text x="428" y="392" class="mut cap a33">WORDPRESS · MEDIA #608 · DESCRIPTION</text>
+<text x="428" y="414" class="ink t10 a34">Source: commons.wikimedia.org/wiki/File:Bamboo_Fo…</text>
+<text x="428" y="432" class="ink t10 a35">Author: Basile Morin</text>
+<text x="428" y="450" class="ink t10 a36">Licence: CC BY-SA 4.0</text>
+<text x="428" y="468" class="ink t10 a37">Original resolution: 6558x4372</text>
+</g>
+</svg>

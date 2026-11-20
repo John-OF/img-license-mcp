@@ -1,0 +1,11 @@
+# --- MCP framework ---
+fastmcp>=2.10,<3.0
+
+# --- HTTP client (image APIs + WordPress REST) ---
+httpx>=0.27
+
+# --- Image processing: downscaling and WebP conversion ---
+pillow>=10.4
+
+# --- .env loading (optional keys and WordPress credentials) ---
+python-dotenv>=1.0

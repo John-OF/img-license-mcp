@@ -1,0 +1,15 @@
+# Runtime dependencies live in requirements.txt; dev tools in requirements-dev.txt.
+# This file only configures the tooling.
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+# The tests are synchronous; anyio's plugin (installed with fastmcp) is not needed.
+addopts = "-p no:anyio"
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]
